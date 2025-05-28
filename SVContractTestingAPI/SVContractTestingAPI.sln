@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVContractTestingAPI", "SVContractTestingAPI.csproj", "{11FAC2AC-1AB1-4EC6-BB6F-4737913A45F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{FEA0C042-AA76-4E45-B1C7-36FCC77E05B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11FAC2AC-1AB1-4EC6-BB6F-4737913A45F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11FAC2AC-1AB1-4EC6-BB6F-4737913A45F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11FAC2AC-1AB1-4EC6-BB6F-4737913A45F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11FAC2AC-1AB1-4EC6-BB6F-4737913A45F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA0C042-AA76-4E45-B1C7-36FCC77E05B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA0C042-AA76-4E45-B1C7-36FCC77E05B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA0C042-AA76-4E45-B1C7-36FCC77E05B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA0C042-AA76-4E45-B1C7-36FCC77E05B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
