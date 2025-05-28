@@ -33,12 +33,9 @@ public class FamiliesProviderFixture
                 }
             };
 
-            string pactPath = Path.Combine(Directory.GetCurrentDirectory(),
-                                          "..",
-                                          "..",
-                                          "..",
-                                          "pacts",
-                                          "familiesconsumer-familiesprovider.json");
+            string pactPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, 
+                "..", "..", "..", "..", "..", "pacts", "ReactFrontend-DotNetBackend.json"));
+
 
             using var pactVerifier = new PactVerifier("FamiliesList", config);
 
